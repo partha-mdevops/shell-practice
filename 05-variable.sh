@@ -6,5 +6,5 @@ echo "user name is $USER_NAME"
 
 
 echo "Enter the password""
-read -s PASS_WORD
-echo "password is $PASS_WORD"
+read -s PASSWORD
+echo "password is $PASSWORD"
