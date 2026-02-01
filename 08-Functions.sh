@@ -17,8 +17,3 @@ if [ $1 -ne 0 ]; then
 dnf install nginx -y
 VALIDATE $? "Installing nginx" 
 
-dnf install mysql -y
-VALIDATE $? "Installing mysql"   
-
-dnf install nodejs -y
-VALIDATE $? "Installing nodejs"
