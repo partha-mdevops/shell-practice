@@ -17,4 +17,3 @@ if [ $1 -ne 0 ]; then
 
 dnf install nginx -y
 VALIDATE $? "Installing nginx"
-
