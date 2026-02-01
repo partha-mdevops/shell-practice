@@ -14,6 +14,7 @@ if [ $1 -ne 0 ]; then
         echo c$2 is success"
   fi 
 }
+
 dnf install nginx -y
-VALIDATE $? "Installing nginx" 
+VALIDATE $? "Installing nginx"
 
